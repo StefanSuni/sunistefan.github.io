@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Resources/CSS/Cheat sheet.css">
+    <title>HTML and CSS</title>
+</head>
+<body>
+    <div class="container maintitle">
+        <h1>HTML and CSS cheat sheet</h1>
+    </div>
+    <h2>HTML</h2>
+    <div class="container introduction">
+        <div class="boxing">
+            <h3>HTML</h2>
+                <p>HTML (HyperText Markup Language) is used to give content to a web page and instructs web browsers on how to structure that content.</p>
+        </div>
+        <div class="boxing">
+            <h3>HTML Structure</h3>
+                <p>HTML is organized into a family tree structure. HTML elements can have parents, grandparents, siblings, children, grandchildren, etc.</p>
+        </div>
+        <div class="boxing">
+            <h3>HTML Tag</h3>
+                <p>The syntax for a single HTML tag is an opening angle bracket &lt; followed by the element name and a closing angle bracket &gt;. Here is an example of an opening &lt;div&gt; tag.</p>
+        </div>
+        <div class="boxing">
+            <h3>Closing Tag</h3>
+                <p>An HTML closing tag is used to denote the end of an HTML element. The syntax for a closing tag is a left angle bracket &lt; followed by a forward slash / then the element name and a right angle bracket to close &gt;.</p>
+        </div>
+        <div class="boxing">
+            <h3>HTML Element</h3>
+                <p>An HTML element is a piece of content in an HTML document and uses the following syntax: opening tag + content + closing tag. In the code provided: &lt;p&gt; is the opening tag, Hello World! is the content and &lt;/p&gt; is the closing tag.</p>
+        </div>
+        <div class="boxing">
+            <h3>Attribute Name and Values</h3>
+                <p>HTML attributes consist of a name and a value using the following syntax: name="value" and can be added to the opening tag of an HTML element to configure or change the behavior of the element.</p>
+        </div>
+        <div class="boxing">
+            <h3>HTML Attributes</h3>
+                <p>HTML attributes are values added to the opening tag of an element to configure the element or change the element’s default behavior. In the provided example, we are giving the &lt;p&gt; (paragraph) element a unique identifier using the id attribute and changing the color of the default text using the style attribute.</p>
+        </div>
+        <div class="boxing">
+            <h3>Unique ID Attributes</h3>
+                <p>In HTML, specific and unique <span>id</span> attributes can be assigned to different elements in order to differentiate between them. When needed, the id value can be called upon by CSS and JavaScript to manipulate, format, and perform specific instructions on that element and that element only. Valid id attributes should begin with a letter and should only contain letters (a-Z), digits (0-9), hyphens (-), underscores (_), and periods (.).</p>
+        </div>
+        <div class="boxing">
+            <h3>Element Content</h3>
+                <p>The content of an HTML element is the information between the opening and closing tags of an element.</p>
+                    <p class="example">&lt;H1 main header&gt;</p>
+        </div>
+        <div class="boxing">
+            <h3>Indentation</h3>
+                <p>HTML code should be formatted such that the indentation level of text increases once for each level of nesting. It is a common convention to use two or four space per level of nesting.</p>
+        </div>
+        <div class="boxing">
+            <h3>Whitespace</h3>
+                <p>Whitespace, such as line breaks, added to an HTML document between block-level elements will generally be ignored by the browser and are not added to increase spacing on the rendered HTML page. Rather, whitespace is added for organization and easier reading of the HTML document itself.</p>
+        </div>
+    </div>
+    <h2>Elements</h2>
+    <div class="container element-part">
+        <div class="boxing">
+            <h3>&lt;!DOCTYPE html&gt; Document Type Declaration</h3>
+                <p>The document type declaration &lt;!DOCTYPE html&gt; is required as the first line of an HTML document. The doctype declaration is an instruction to the browser about what type of document to expect and which version of HTML is being used, in this case it’s HTML5.</p>
+        </div>
+        <div class="boxing">
+            <h3>&lt;html&gt; HTML Element</h3>
+                <p>The &lt;html&gt; element, the root of an HTML document, should be added after the &lt;!DOCTYPE html&gt; declaration. All content/structure for an HTML document should be contained between the opening and closing &lt;html&gt; tags.</p>
+        </div>
+        <div class="boxing">
+            <h3>&lt;head&gt; Head Element</h3>
+                <p>&lt;head&gt; Head Element</p>
+        </div>
+        <div class="boxing">
+            <h3>&lt;meta&gt; Metadata Element</h3>
+                <p>The &lt;meta&gt; HTML element represents Metadata that cannot be represented by other HTML meta-related elements, like base, link, script, style or title.</p>
+        </div>
+        <div class="boxing">
+            <h3>&lt;style&gt; Style Element</h3>
+                <p>The &lt;style&gt; HTML element contains style information for a document, or part of a document. It contains CSS, which is applied to the contents of the document containing the &lt;style&gt; element.</p>
+        </div>
+        <div class="boxing">
+            <h3>&lt;title&gt; Title Element</h3>
+                <p>The &lt;title&gt; element contains a text that defines the title of an HTML document. The title is displayed in the browser’s title bar or tab in which the HTML page is displayed. The &lt;title&gt; element can only be contained inside a document’s &lt;head&gt; element.</p>
+        </div>
+        <div class="boxing">
+            <h3>&lt;!-- --&gt; Comments</h3>
+                <p>In HTML, comments can be added between an opening <!-- and closing -->. Content inside of comments will not be rendered by browsers, and are usually used to describe a part of code or provide other details. Comments can span single or multiple lines.</p>
+        </div>
+        <div class="boxing">
+            <h3>&lt;body&gt; Body Element</h3>
+                <p>The &lt;body&gt; element represents the content of an HTML document. Content inside &lt;body&gt; tags are rendered on the web browsers. There can be only one &lt;body&gt; element in a document.</p>
+        </div>
+        <div class="boxing">
+            <h3>&lt;h1&gt;-&lt;h6&gt; Heading Elements</h3>
+                <p>HTML can use six different levels of heading elements. The heading elements are ordered from the highest level &lt;h1&gt; to the lowest level &lt;h6&gt;.</p>
+        </div>
+        <div class="boxing">
+            <h3>&lt;p&gt; Paragraph Element</h3>
+                <p>&lt;p&gt; Paragraph Element</p>
+        </div>
+        <div class="boxing">
+            <h3>&lt;ol&gt; Ordered List Element</h3>
+                <p>The &lt;ol&gt; ordered list element creates a list of items in sequential order. Each list item appears numbered by default.</p>
+        </div>
+        <div class="boxing">
+            <h3>&lt;ul&gt; Unordered List Element</h3>
+                <p>The &lt;ul&gt; unordered list element is used to create a list of items in no particular order. Each individual list item will have a bullet point by default.</p>
+        </div>
+        <div class="boxing">
+            <h3>&lt;div&gt; Div Element</h3>
+                <p>The &lt;div&gt; element is used as a container that divides an HTML document into sections and is short for “division”. &lt;div&gt; elements can contain flow content such as headings, paragraphs, links, images, etc.</p>
+                <p>&lt;div&gt;
+                <br>
+                &nbsp;&lt;h1&gt;A section of grouped elements&lt;/h1&gt;
+                <br>
+                &nbsp;&lt;p&gt;Here’s some text for the section&lt;/p&gt;
+                <br>&lt;/div&gt;
+                </p>
+        </div>
+        <div class="boxing">
+            <h3>&lt;span&gt; Span Element</h3>
+                <p>The &lt;span&gt; element is an inline container for text and can be used to group text for styling purposes. However, as &lt;span&gt; is a generic container to separate pieces of text from a larger body of text, its use should be avoided if a more semantic element is available.</p>
+        </div>
+        <div class="boxing">
+            <h3>&lt;a&gt; Anchor Element</h3>
+                <p>The &lt;a&gt; anchor element is used to create hyperlinks in an HTML document. The hyperlinks can point to other webpages, files on the same server, a location on the same page, or any other URL via the hyperlink reference attribute, href. The href determines the location the anchor element points to.</p>
+        </div>
+        <div class="boxing">
+            <h3>Link to a Different Part of the Page #</h3>
+                <p>The anchor element &lt;a&gt; can create hyperlinks to different parts of the same HTML document using the <span>href</span> attribute to point to the desired location with # followed by the id of the element to link to.</p>
+        </div>
+        <div class="boxing">
+            <h3>File Path</h3>
+                <p>URL paths in HTML can be absolute paths, like a full URL, for example: https://developer.mozilla.org/en-US/docs/Learn or a relative file path that links to a local file in the same folder or on the same server, for example: ./style.css. Relative file paths begin with ./ followed by a path to the local file. ./ tells the browser to look for the file path from the current folder.</p>
+        </div>
+        <div class="boxing">
+            <h3>&lt;target&gt; Target Attribute</h3>
+                <p>The target attribute on an &lt;a&gt; anchor element specifies where a hyperlink should be opened. A target value of "_blank" will tell the browser to open the hyperlink in a new tab in modern browsers, or in a new window in older browsers or if the browser has had settings changed to open hyperlinks in a new window.</p>
+        </div>
+        <div class="boxing">
+            <h3>&lt;br&gt; Line Break Element</h3>
+                <p>The &lt;br&gt; line break element will create a line break in text and is especially useful where a division of text is required, like in a postal address. The line break element requires only an opening tag and must not have a closing tag.</p>
+        </div>
+        <div class="boxing">
+            <h3>&lt;li&gt; List Item Element</h3>
+                <p>The &lt;li&gt; list item element create list items inside:</p>
+                <ul>
+                    <li>Ordered list &lt;ol&gt;</li>
+                    <li>Unordered list &lt;ul&gt;</li>
+                </ul>
+                    <p class="example">
+                            <p>&lt;ol&gt;</p>
+                            <p>&nbsp;&nbsp;&lt;First&gt;</p>
+                            <p>&nbsp;&nbsp;&lt;Second&gt;</p>
+                            <p>&lt;/ol&gt;</p>
+                            <br>
+                            <p>&lt;ul&gt;</p>
+                            <p>&nbsp;&nbsp;&lt;One stuff&gt;</p>
+                            <p>&nbsp;&nbsp;&lt;Other thing&gt;</p>
+                            <p>&lt;/ul&gt;</p>
+                    </p>
+        </div>
+        <div class="boxing">
+            <h3>&lt;em&gt; Emphasis Element</h3>
+                <p>The &lt;em&gt; emphasis element emphasizes text and browsers will usually italicize the emphasized text by default.</p>
+                <p>This &lt;em&gt;word&lt;/em&gt; will be emphasized in italics.</p>
+        </div>
+        <div class="boxing">
+            <h3>&lt;strong&gt; Strong Element</h3>
+                <p>The &lt;strong&gt; element highlights important, serious, or urgent text and browsers will normally render this highlighted text in bold by default.</p>
+        </div>
+        <div class="boxing">
+            <h3>&lt;img&gt; Image Element</h3>
+                <p>HTML image &lt;img&gt; elements embed images in documents. The src attribute contains the image URL and is mandatory. &lt;img&gt; is an empty element meaning it should not have a closing tag.</p>
+        </div> 
+        <div class="boxing">
+            <h3>&lt;video&gt; Video Element</h3>
+                <p>The &lt;video&gt; element embeds a media player for video playback. The src attribute will contain the URL to the video. Adding the controls attribute will display video controls in the media player.</p>
+                <br>
+                <p>Note: The content inside the opening and closing tag is shown as a fallback in browsers that don’t support the element.</p>
+        </div>
+        <div class="boxing">
+            <h3>alt Attribute</h3>
+                <p>An &lt;img&gt; element can have alternative text via the alt attribute. The alternative text will be displayed if an image fails to render due to an incorrect URL, if the image format is not supported by the browser, if the image is blocked from being displayed, or if the image has not been received from the URL. The text will be read aloud if screen reading software is used and helps support visually impaired users by providing a text descriptor for the image content on a webpage.</p>
+        </div>
+    </div>
+    <h2>Table Elements</h2>
+    <div class="container table-element">
+        <div class="boxing">
+            <h3>&lt;table&gt; Table Element</h3>
+                <p>In HTML, the &lt;table&gt; element has content that is used to represent a two-dimensional table made of rows and columns.</p>
+        </div>
+        <div class="boxing">
+            <h3>&lt;th&gt; Table Heading Element</h3>
+                <p>The table heading element, &lt;th&gt;, is used to add titles to rows and columns of a table and must be enclosed in a table row element, &lt;tr&gt;.</p>
+        </div>
+        <div class="boxing">
+            <h3>&lt;tbody&gt; Table Body Element</h3>
+                <p>The table body element, &lt;tbody&gt;, is a semantic element that will contain all table data other than table heading and table footer content. If used, &lt;tbody&gt; will contain all table row &lt;tr&gt; elements, and indicates that &lt;tr&gt; elements make up the body of the table. &lt;table&gt; cannot have both &lt;tbody&gt; and &lt;tr&gt; as direct children.</p>
+        </div>
+        <div class="boxing">
+            <h3>&lt;tfoot&gt; Table Footer Element</h3>
+                <p>The table footer element, &lt;tfoot&gt;, uses table rows to give footer content or to summarize content at the end of a table.</p>
+        </div>
+        <div class="boxing">
+            <h3>&lt;tr&gt; Table Row Element</h3>
+            The table row element, &lt;tr&gt;, is used to add rows to a table before adding table data and table headings.
+        </div>
+        <div class="boxing">
+            <h3>&lt;td&gt; Table Data Element</h3>
+                <p>The table data element, &lt;td&gt;, can be nested inside a table row element, &lt;tr&gt;, to add a cell of data to a table.</p>
+        </div>
+        <div class="boxing">
+            <h3>rowspan Attribute</h3>
+                <p>Similar to colspan, the rowspan attribute on a table header or table data element indicates how many rows that particular cell should span within the table. The rowspan value is set to 1 by default and will take any positive integer up to 65534.</p>
+        </div>
+        <div class="boxing">
+            <h3>colspan Attribute</h3>
+                <p>The colspan attribute on a table header &lt;th&gt; or table data &lt;td&gt; element indicates how many columns that particular cell should span within the table. The colspan value is set to 1 by default and will take any positive integer between 1 and 1000.</p>
+        </div>
+    </div>
+</body>           
+</html>
