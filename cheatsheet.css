@@ -20,6 +20,18 @@ body {
     justify-content: space-evenly;
 }
 
+.maintitle {
+    display: block;
+    margin: auto;
+    max-width: 60%;
+}
+
+.sections {
+    display: block;
+    margin: auto;
+    max-width: 25%;
+}
+
 h1 {
     font-family: 'Cabin', sans-serif;
     font-size: 70px;
@@ -89,3 +101,11 @@ p {
     flex: 1;
     align-self: baseline;
 }
+
+.perinfo {
+    font-family: 'Cabin', sans-serif;
+    font-size: 70px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
