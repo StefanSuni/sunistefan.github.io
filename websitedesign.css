@@ -1,0 +1,219 @@
+@font-face {
+    font-family: 'Aboreto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/aboreto/v2/5DCXAKLhwDDQ4N8bpKPUAg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/dancingscript/v24/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3Sup8.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/josefinsans/v25/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_GbQbMZhLw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+    font-family: 'Merriweather';
+    font-style: italic;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/merriweather/v30/u-4m0qyriQwlOrhSvowK_l5-eRZOf-I.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;} 
+body {
+    background-color: #a0d2eb;
+}
+h1 {
+    text-align: center;
+    font-size: 80px;
+    font-weight: 900;
+    font-family: 'Josefin Sans';
+    text-shadow: 2px 2px 8px black;
+}
+h2 {
+    text-align: center;
+    font-family: 'Merriweather';
+    font-size: 50px;
+    font-weight: 600;
+    text-shadow: 1px 1px 4px black;
+    margin: 10px auto 10px;
+    padding: 30px 10px 10px;
+}
+h3 {
+    font-size: 35px;
+    font-family: 'Poppins';
+    text-shadow: 1px 1px 2px black;
+}
+.container {
+    display: block;
+    font-size: 20px;
+    font-family: 'Josefin Sans';
+    font-weight: bold;
+    background-color: #e5eaf5;
+    border: 0px solid #e5eaf5;
+    border-radius: 20px;
+    margin: 20px 20px 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 30px 30px 90px;
+}
+/* Main container border and shadow */
+.color-container {
+    display: block;
+    padding: 5px 15px;
+    margin: 5px 10px;
+}
+ul li a {
+    text-decoration: underline;
+    border: none;
+    color: black;
+}
+ul li a:hover {
+    color: #1E90FF;
+}
+.color-panel {
+    display: inline-block;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 25px;
+    margin: 15px 20px 30px;
+}
+a {
+    flex: 1;
+    border: 1px solid;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.8s ease-out;
+}
+.DarkBlue {
+    background-color: #00008B;
+    border: 1px solid #00008B;
+    box-shadow: 5px 10px 20px #00008B;
+}
+.DarkBlue:hover,
+.DarkBlue:focus {
+    background-color: #fff;
+    color: #00008B;
+}
+.MediumBlue {
+    background-color: #0000CD;
+    border: 1px solid #0000CD;
+    box-shadow: 5px 10px 20px #0000CD;
+}
+.MediumBlue:hover,
+.MediumBlue:focus {
+    background-color: #fff;
+    color: #0000CD;
+}
+.DodgerBlue {
+    background-color: #1E90FF;
+    border: 1px solid #1E90FF;
+    box-shadow: 5px 10px 20px #1E90FF;
+}
+.DodgerBlue:hover,
+.DodgerBlue:focus {
+    background-color: #fff;
+    color: #1E90FF;
+}
+.CornflowerBlue {
+    background-color: #6495ED;
+    border: 1px solid #6495ED;
+    box-shadow: 5px 10px 20px #6495ED;
+}
+.CornflowerBlue:hover,
+.CornflowerBlue:focus {
+    background-color: #fff;
+    color: #6495ED;
+}
+.SkyBlue {
+    background-color: #87CEEB;
+    border: 1px solid #87CEEB;
+    box-shadow: 5px 10px 20px #87CEEB;
+}
+.SkyBlue:hover,
+.SkyBlue:focus {
+    background-color: #fff;
+    color: #87CEEB;
+}
+.LightSkyBlue {
+    background-color: #87CEFA;
+    border: 1px solid #87CEFA;
+    box-shadow: 5px 10px 20px #87CEFA;
+}
+.LightSkyBlue:hover,
+.LightSkyBlue:focus {
+    background-color: #fff;
+    color: #87CEFA;
+}
+.font-container {
+    margin: 5px 10px;
+    padding: 5px 15px;
+}
+.fontfamily {
+    display: block;
+    font-size: 30px;
+}
+.gfonts {    
+    display: inline-block;
+    color: #000080;
+    border-radius: 8px;
+    padding: 10px 25px;
+    margin: 15px 20px 30px;
+}
+.gfonts:hover,
+.gfonts:focus {
+    background-color: #000080;
+    border: 1px solid #000080;
+    color: white;
+}
+.aboreto {
+    font-family: 'Aboreto';
+    font-weight: 400;
+    color: ;
+    box-shadow: 5px 10px 20px #000080;
+}
+.dancing {
+    font-family: 'Dancing Script';
+    font-weight: 400;
+    box-shadow: 5px 10px 20px #000080;
+}
+.merriweather {
+    font-family: 'Merriweather';
+    font-weight: 400;
+    font-style: italic;
+    box-shadow: 5px 10px 20px #000080;
+}
+.poppins {
+    font-family: 'Poppins';
+    font-weight: 600;
+    box-shadow: 5px 10px 20px #000080;
+}
+.text-container {
+    margin: 5px 10px;
+    padding: 5px 15px;
+}
+.fontstyle {
+    display: inline-block;
+    margin: 5px 20px;
+}
+footer {
+    font-size: 30px;
+    font-family: 'Josefin Sans';
+    font-weight: 700;
+    text-shadow: 1px 1px 4px black;
+    margin: 5px 10px;
+    padding: 5px 15px;
+}
